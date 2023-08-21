@@ -1,0 +1,2072 @@
+[
+  {
+    "video": [
+      {
+        "id": "75498d43-8b59-4035-8299-9ea99249d59a",
+        "youtube_link": "https://www.youtube.com/watch?v=abcdefg123",
+        "transcript": "This is the transcript for video 1",
+        "created_at": "2023-08-21T15:53:10.992Z",
+        "updated_at": "2023-08-21T07:19:38.776Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b59fdd2-7884-4ab6-b11e-9c7a2bc8d18d",
+        "youtube_link": "https://www.youtube.com/watch?v=hijklmn456",
+        "transcript": "This is the transcript for video 2",
+        "created_at": "2023-08-21T02:56:42.756Z",
+        "updated_at": "2023-08-21T07:57:27.556Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49f3a7c6-b7e6-4a06-90da-dcdc6d4f9010",
+        "youtube_link": "https://www.youtube.com/watch?v=opqrstu789",
+        "transcript": "This is the transcript for video 3",
+        "created_at": "2023-08-21T04:56:22.476Z",
+        "updated_at": "2023-08-21T09:20:04.624Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87377482-37f8-457d-9d59-fde286aceb72",
+        "youtube_link": "https://www.youtube.com/watch?v=vwxyz12345",
+        "transcript": "This is the transcript for video 4",
+        "created_at": "2023-08-21T06:58:50.795Z",
+        "updated_at": "2023-08-21T01:00:21.911Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5c5251e-7f8d-4054-a9d9-5d75cb38eaaa",
+        "youtube_link": "https://www.youtube.com/watch?v=67890abcde",
+        "transcript": "This is the transcript for video 5",
+        "created_at": "2023-08-21T08:23:45.950Z",
+        "updated_at": "2023-08-21T08:27:21.038Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "summary": [
+      {
+        "id": "bcf5abb6-a3a8-4fca-a9c5-b54424586631",
+        "content": "This is the summary content 1",
+        "created_at": "2023-08-21T01:30:43.404Z",
+        "updated_at": "2023-08-21T12:38:51.834Z",
+        "video_id": "49f3a7c6-b7e6-4a06-90da-dcdc6d4f9010"
+      },
+      {
+        "id": "52c78d3b-c8ed-465a-b32f-1004d6b8f5f9",
+        "content": "This is the summary content 2",
+        "created_at": "2023-08-21T10:30:53.285Z",
+        "updated_at": "2023-08-21T13:29:38.756Z",
+        "video_id": "87377482-37f8-457d-9d59-fde286aceb72"
+      },
+      {
+        "id": "e0ff8331-b5ef-4c77-bae3-9bcc1444d168",
+        "content": "This is the summary content 3",
+        "created_at": "2023-08-20T21:01:40.397Z",
+        "updated_at": "2023-08-21T03:02:39.331Z",
+        "video_id": "49f3a7c6-b7e6-4a06-90da-dcdc6d4f9010"
+      },
+      {
+        "id": "0afaf3a2-cc44-4a1c-801f-338df618caf4",
+        "content": "This is the summary content 4",
+        "created_at": "2023-08-21T07:27:04.470Z",
+        "updated_at": "2023-08-21T09:54:39.887Z",
+        "video_id": "49f3a7c6-b7e6-4a06-90da-dcdc6d4f9010"
+      },
+      {
+        "id": "65c9184b-9565-4979-a156-205ebcf25d11",
+        "content": "This is the summary content 5",
+        "created_at": "2023-08-20T22:40:22.588Z",
+        "updated_at": "2023-08-21T05:54:37.636Z",
+        "video_id": "49f3a7c6-b7e6-4a06-90da-dcdc6d4f9010"
+      }
+    ],
+    "pdf": [
+      {
+        "id": "65d7b64b-3094-491d-81b9-262aa1d507b4",
+        "file_path": "path/to/pdf1.pdf",
+        "created_at": "2023-08-20T18:52:26.564Z",
+        "updated_at": "2023-08-21T13:15:57.551Z",
+        "summary_id": "52c78d3b-c8ed-465a-b32f-1004d6b8f5f9"
+      },
+      {
+        "id": "b1e49973-ca7c-4d46-ac4c-3e8d186bb6db",
+        "file_path": "path/to/pdf2.pdf",
+        "created_at": "2023-08-21T09:39:13.626Z",
+        "updated_at": "2023-08-20T17:43:51.056Z",
+        "summary_id": "0afaf3a2-cc44-4a1c-801f-338df618caf4"
+      },
+      {
+        "id": "19ec63ef-4e5d-4071-84ac-17452b90098c",
+        "file_path": "path/to/pdf3.pdf",
+        "created_at": "2023-08-21T00:20:59.880Z",
+        "updated_at": "2023-08-21T05:39:52.459Z",
+        "summary_id": "bcf5abb6-a3a8-4fca-a9c5-b54424586631"
+      },
+      {
+        "id": "a415daac-5d26-464c-b69d-c0dc36aef811",
+        "file_path": "path/to/pdf4.pdf",
+        "created_at": "2023-08-21T11:00:10.511Z",
+        "updated_at": "2023-08-21T06:13:49.718Z",
+        "summary_id": "bcf5abb6-a3a8-4fca-a9c5-b54424586631"
+      },
+      {
+        "id": "2915f333-37f1-47b9-b4ec-bea5abd60a4a",
+        "file_path": "path/to/pdf5.pdf",
+        "created_at": "2023-08-21T12:46:35.958Z",
+        "updated_at": "2023-08-21T14:39:15.118Z",
+        "summary_id": "bcf5abb6-a3a8-4fca-a9c5-b54424586631"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "62e2d9b1-8189-47b4-ac5a-ba281d855ebe",
+        "email": "invitee1@example.com",
+        "status": "pending",
+        "created_at": "2023-08-21T10:48:07.081Z",
+        "updated_at": "2023-08-20T17:22:05.636Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e19b5d1f-b38a-4dc7-88a6-75ca9e1c4923",
+        "email": "invitee2@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-20T22:25:33.443Z",
+        "updated_at": "2023-08-21T05:00:27.152Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c9fa4fa4-4346-4a83-9a10-3cc5e2ac0ae5",
+        "email": "invitee3@example.com",
+        "status": "declined",
+        "created_at": "2023-08-20T17:56:50.242Z",
+        "updated_at": "2023-08-21T15:37:23.884Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "65be74d5-aa68-40b8-9b47-af6d3f03c0ae",
+        "email": "invitee4@example.com",
+        "status": "pending",
+        "created_at": "2023-08-21T14:48:33.047Z",
+        "updated_at": "2023-08-21T07:39:19.402Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "04ccdf2f-1965-4bea-913a-351443a96f4b",
+        "email": "invitee5@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-20T20:03:28.686Z",
+        "updated_at": "2023-08-21T01:48:08.141Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "cab30544-6981-45b0-b0af-1b7c2747318c",
+        "email": "Erik_Boehm@hotmail.com",
+        "firstName": "Uriel",
+        "lastName": "Collier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/905.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ed4c5e0a-4d45-4492-a2c2-c42f82773759",
+        "email": "Carmine36@yahoo.com",
+        "firstName": "Demond",
+        "lastName": "Powlowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54962607",
+        "tenantId": null
+      },
+      {
+        "reference": "31d5c813-097f-4d23-aa97-a95eee1f869a",
+        "email": "Xzavier_Feeney@hotmail.com",
+        "firstName": "Oren",
+        "lastName": "Schulist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12737304",
+        "tenantId": null
+      },
+      {
+        "reference": "42ea2198-3868-44a5-bfd5-5aefab5c7eed",
+        "email": "Melissa.Wyman@hotmail.com",
+        "firstName": "Janelle",
+        "lastName": "Krajcik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60967364",
+        "tenantId": null
+      },
+      {
+        "reference": "4f52007f-14ca-403b-87d2-9268bb954eaf",
+        "email": "Corene.Bechtelar71@gmail.com",
+        "firstName": "Carlee",
+        "lastName": "Feeney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96894272",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "video": [
+      {
+        "id": "9c64b522-6f71-482b-b48b-64c0f265ff3b",
+        "youtube_link": "https://www.youtube.com/watch?v=abcd1234",
+        "transcript": "This is the transcript for video 1",
+        "created_at": "2023-08-20T23:10:17.544Z",
+        "updated_at": "2023-08-21T12:34:52.392Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5296c84b-5cee-4bda-9997-ab60914994ba",
+        "youtube_link": "https://www.youtube.com/watch?v=efgh5678",
+        "transcript": "This is the transcript for video 2",
+        "created_at": "2023-08-20T17:51:54.694Z",
+        "updated_at": "2023-08-21T10:54:49.955Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "851c125d-378a-4f75-93d6-0a63c1233a05",
+        "youtube_link": "https://www.youtube.com/watch?v=ijkl9012",
+        "transcript": "This is the transcript for video 3",
+        "created_at": "2023-08-21T15:20:55.584Z",
+        "updated_at": "2023-08-21T02:08:49.661Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d8ee274-eaec-4367-af84-21b514ff81cd",
+        "youtube_link": "https://www.youtube.com/watch?v=mnop3456",
+        "transcript": "This is the transcript for video 4",
+        "created_at": "2023-08-21T15:17:16.368Z",
+        "updated_at": "2023-08-20T21:43:40.798Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa3161c3-613c-412e-be09-8826f07f7bd1",
+        "youtube_link": "https://www.youtube.com/watch?v=qrs7890",
+        "transcript": "This is the transcript for video 5",
+        "created_at": "2023-08-21T03:10:34.453Z",
+        "updated_at": "2023-08-20T22:47:39.530Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "summary": [
+      {
+        "id": "2cd9a16b-8113-49a3-89f1-071e5f45edf3",
+        "content": "This is the summary content 1",
+        "created_at": "2023-08-21T03:03:56.501Z",
+        "updated_at": "2023-08-21T06:00:55.450Z",
+        "video_id": "3d8ee274-eaec-4367-af84-21b514ff81cd"
+      },
+      {
+        "id": "0a3ed808-647f-4ed3-8620-89a8cd80d231",
+        "content": "This is the summary content 2",
+        "created_at": "2023-08-21T02:56:50.832Z",
+        "updated_at": "2023-08-20T23:27:07.394Z",
+        "video_id": "aa3161c3-613c-412e-be09-8826f07f7bd1"
+      },
+      {
+        "id": "6b1163dd-7678-4e1c-8bc6-a314e8cb3f37",
+        "content": "This is the summary content 3",
+        "created_at": "2023-08-21T09:49:21.558Z",
+        "updated_at": "2023-08-21T12:50:27.361Z",
+        "video_id": "5296c84b-5cee-4bda-9997-ab60914994ba"
+      },
+      {
+        "id": "af422ed2-9e6c-49de-8940-ce84a9cd4010",
+        "content": "This is the summary content 4",
+        "created_at": "2023-08-21T00:45:39.296Z",
+        "updated_at": "2023-08-21T15:02:18.186Z",
+        "video_id": "5296c84b-5cee-4bda-9997-ab60914994ba"
+      },
+      {
+        "id": "49b789e6-adef-412f-bf36-425b9b8f43ad",
+        "content": "This is the summary content 5",
+        "created_at": "2023-08-20T20:07:03.202Z",
+        "updated_at": "2023-08-21T00:25:00.190Z",
+        "video_id": "851c125d-378a-4f75-93d6-0a63c1233a05"
+      }
+    ],
+    "pdf": [
+      {
+        "id": "d61ff901-f53e-4bc8-a2fd-5095570198e3",
+        "file_path": "path/to/file1.pdf",
+        "created_at": "2023-08-20T20:07:46.654Z",
+        "updated_at": "2023-08-21T01:37:57.523Z",
+        "summary_id": "2cd9a16b-8113-49a3-89f1-071e5f45edf3"
+      },
+      {
+        "id": "945bf945-35f7-4b09-88b9-82e4d50fe7a3",
+        "file_path": "path/to/file2.pdf",
+        "created_at": "2023-08-21T09:15:31.067Z",
+        "updated_at": "2023-08-21T01:52:33.427Z",
+        "summary_id": "0a3ed808-647f-4ed3-8620-89a8cd80d231"
+      },
+      {
+        "id": "5435ef2a-1573-472f-90e8-a93c0f061d76",
+        "file_path": "path/to/file3.pdf",
+        "created_at": "2023-08-20T18:43:53.250Z",
+        "updated_at": "2023-08-21T07:51:45.694Z",
+        "summary_id": "6b1163dd-7678-4e1c-8bc6-a314e8cb3f37"
+      },
+      {
+        "id": "3eb5a17a-50d6-4074-ae83-9389bbba9703",
+        "file_path": "path/to/file4.pdf",
+        "created_at": "2023-08-21T11:06:18.670Z",
+        "updated_at": "2023-08-20T17:59:38.859Z",
+        "summary_id": "0a3ed808-647f-4ed3-8620-89a8cd80d231"
+      },
+      {
+        "id": "210b19e6-70b2-4432-bdd3-b0d513241c09",
+        "file_path": "path/to/file5.pdf",
+        "created_at": "2023-08-21T01:25:52.983Z",
+        "updated_at": "2023-08-21T14:51:05.219Z",
+        "summary_id": "2cd9a16b-8113-49a3-89f1-071e5f45edf3"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "c41f0271-f447-4d13-a5b4-2391fed6d802",
+        "email": "invitee1@example.com",
+        "status": "pending",
+        "created_at": "2023-08-21T06:58:07.863Z",
+        "updated_at": "2023-08-21T13:13:07.473Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fe6be5af-ca35-4536-9875-b2bbc5e94b11",
+        "email": "invitee2@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-21T04:13:45.778Z",
+        "updated_at": "2023-08-21T00:16:54.400Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0bd863f0-bbdb-44a3-ac61-17679348dab6",
+        "email": "invitee3@example.com",
+        "status": "declined",
+        "created_at": "2023-08-21T16:07:21.451Z",
+        "updated_at": "2023-08-21T09:07:53.589Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f3863968-8600-467c-9326-bdf2b2211504",
+        "email": "invitee4@example.com",
+        "status": "pending",
+        "created_at": "2023-08-20T17:59:40.507Z",
+        "updated_at": "2023-08-21T04:33:59.950Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f81f8562-a72e-4b32-aec9-72700156a5d2",
+        "email": "invitee5@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-21T01:51:21.818Z",
+        "updated_at": "2023-08-21T06:12:47.816Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "27a9f227-8fb1-4c65-adbc-dbbbec83b119",
+        "email": "Raheem_Murray@gmail.com",
+        "firstName": "Telly",
+        "lastName": "Rohan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/562.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4ac6cf0a-9479-4720-b467-799fec328ce9",
+        "email": "Clemens.Romaguera10@gmail.com",
+        "firstName": "Rashawn",
+        "lastName": "McKenzie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/492.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "93c7b9f5-7ff6-4dac-a075-b3c0430fa364",
+        "email": "Gisselle28@gmail.com",
+        "firstName": "Stevie",
+        "lastName": "Pagac",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50454938",
+        "tenantId": null
+      },
+      {
+        "reference": "0aa5a304-2f2e-436f-b54e-6c0715dacac9",
+        "email": "Anais.Ortiz51@yahoo.com",
+        "firstName": "Kaelyn",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/543.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "295e8ae2-56f2-4ae7-b96e-efb580f3abc3",
+        "email": "Jamaal.McCullough29@yahoo.com",
+        "firstName": "Peter",
+        "lastName": "Russel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/804.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "video": [
+      {
+        "id": "8c0e7997-dbc4-482a-9eea-db322053a9b6",
+        "youtube_link": "https://www.youtube.com/watch?v=abcdefg",
+        "transcript": "This is the transcript for video 1",
+        "created_at": "2023-08-20T18:13:46.555Z",
+        "updated_at": "2023-08-21T14:58:16.616Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0bcbda8e-e810-421f-bd6a-0df092167815",
+        "youtube_link": "https://www.youtube.com/watch?v=hijklmn",
+        "transcript": "This is the transcript for video 2",
+        "created_at": "2023-08-21T05:50:48.099Z",
+        "updated_at": "2023-08-21T06:33:26.210Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db0bf10d-912d-42e3-95f8-4f67a093be86",
+        "youtube_link": "https://www.youtube.com/watch?v=opqrstu",
+        "transcript": "This is the transcript for video 3",
+        "created_at": "2023-08-20T23:32:45.676Z",
+        "updated_at": "2023-08-21T07:38:29.581Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a584597a-c72f-48d9-8be6-a0be0cbd69bb",
+        "youtube_link": "https://www.youtube.com/watch?v=vwxyz",
+        "transcript": "This is the transcript for video 4",
+        "created_at": "2023-08-21T11:56:49.691Z",
+        "updated_at": "2023-08-21T14:27:17.232Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2e45c7f-eb38-4028-a9e3-efcbf46d2983",
+        "youtube_link": "https://www.youtube.com/watch?v=1234567",
+        "transcript": "This is the transcript for video 5",
+        "created_at": "2023-08-20T19:54:56.994Z",
+        "updated_at": "2023-08-21T02:35:35.604Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "summary": [
+      {
+        "id": "0ed5ad81-4ba8-4a01-8d23-333e72dbd50c",
+        "content": "Summary content 1",
+        "created_at": "2023-08-21T13:14:04.027Z",
+        "updated_at": "2023-08-21T04:29:21.580Z",
+        "video_id": "c2e45c7f-eb38-4028-a9e3-efcbf46d2983"
+      },
+      {
+        "id": "d8681ce2-4851-4dd1-84d6-a695e2f10007",
+        "content": "Summary content 2",
+        "created_at": "2023-08-21T07:53:06.957Z",
+        "updated_at": "2023-08-21T12:52:25.524Z",
+        "video_id": "a584597a-c72f-48d9-8be6-a0be0cbd69bb"
+      },
+      {
+        "id": "e1b0e39a-405e-4c55-9ea4-fe674f6266cc",
+        "content": "Summary content 3",
+        "created_at": "2023-08-20T19:04:51.899Z",
+        "updated_at": "2023-08-20T21:28:04.819Z",
+        "video_id": "a584597a-c72f-48d9-8be6-a0be0cbd69bb"
+      },
+      {
+        "id": "8d438cd2-b166-4145-929f-8b3b22b1825e",
+        "content": "Summary content 4",
+        "created_at": "2023-08-21T06:25:56.072Z",
+        "updated_at": "2023-08-21T13:51:56.211Z",
+        "video_id": "0bcbda8e-e810-421f-bd6a-0df092167815"
+      },
+      {
+        "id": "09965319-3d44-4012-b968-21acbb511b68",
+        "content": "Summary content 5",
+        "created_at": "2023-08-20T18:36:44.475Z",
+        "updated_at": "2023-08-20T21:15:03.570Z",
+        "video_id": "c2e45c7f-eb38-4028-a9e3-efcbf46d2983"
+      }
+    ],
+    "pdf": [
+      {
+        "id": "f619d968-b82f-4219-93ef-828739aff07c",
+        "file_path": "path/to/pdf1.pdf",
+        "created_at": "2023-08-20T21:50:44.152Z",
+        "updated_at": "2023-08-20T19:12:06.077Z",
+        "summary_id": "0ed5ad81-4ba8-4a01-8d23-333e72dbd50c"
+      },
+      {
+        "id": "311674af-059e-4693-abc9-e51927d61895",
+        "file_path": "path/to/pdf2.pdf",
+        "created_at": "2023-08-20T18:38:09.284Z",
+        "updated_at": "2023-08-21T11:39:27.760Z",
+        "summary_id": "8d438cd2-b166-4145-929f-8b3b22b1825e"
+      },
+      {
+        "id": "de32a004-fdd3-4d0b-a64e-5f82aa329787",
+        "file_path": "path/to/pdf3.pdf",
+        "created_at": "2023-08-20T17:50:36.362Z",
+        "updated_at": "2023-08-21T05:33:53.335Z",
+        "summary_id": "0ed5ad81-4ba8-4a01-8d23-333e72dbd50c"
+      },
+      {
+        "id": "bd3ac22b-a2e3-47ed-8534-8fef93f58f14",
+        "file_path": "path/to/pdf4.pdf",
+        "created_at": "2023-08-21T04:23:33.674Z",
+        "updated_at": "2023-08-20T17:02:44.811Z",
+        "summary_id": "0ed5ad81-4ba8-4a01-8d23-333e72dbd50c"
+      },
+      {
+        "id": "1224fccc-31ec-4e91-85f6-f24804d3e64c",
+        "file_path": "path/to/pdf5.pdf",
+        "created_at": "2023-08-21T04:50:48.193Z",
+        "updated_at": "2023-08-21T10:47:16.330Z",
+        "summary_id": "e1b0e39a-405e-4c55-9ea4-fe674f6266cc"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "14917613-92a0-4681-a1c9-cd277217be46",
+        "email": "invitee1@example.com",
+        "status": "pending",
+        "created_at": "2023-08-21T03:32:18.464Z",
+        "updated_at": "2023-08-21T14:40:05.994Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0a2f96e6-b3b0-4270-ac2c-07901602a3c2",
+        "email": "invitee2@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-21T13:41:29.877Z",
+        "updated_at": "2023-08-21T13:17:05.601Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d7cd12ff-3257-4347-a968-7f1bdf0900a2",
+        "email": "invitee3@example.com",
+        "status": "declined",
+        "created_at": "2023-08-21T00:55:10.503Z",
+        "updated_at": "2023-08-20T17:52:16.528Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8cc5252a-8c20-428c-ba31-0049915bfbec",
+        "email": "invitee4@example.com",
+        "status": "pending",
+        "created_at": "2023-08-21T02:30:27.784Z",
+        "updated_at": "2023-08-21T03:04:58.292Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e456c4d8-9c90-4e17-ab9a-4d89b64f5ab2",
+        "email": "invitee5@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-20T17:05:49.030Z",
+        "updated_at": "2023-08-20T21:07:49.314Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5eec49a1-0bf0-44b7-a331-fe646bcdb4c1",
+        "email": "Isabell.Baumbach92@gmail.com",
+        "firstName": "Deanna",
+        "lastName": "Schumm-Rau",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59315578",
+        "tenantId": null
+      },
+      {
+        "reference": "d7226600-c409-4392-9be0-57eb388cbf3d",
+        "email": "Ariane.Wisozk@yahoo.com",
+        "firstName": "Emelia",
+        "lastName": "Hansen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/736.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bfd46f14-b735-4623-8536-cae3b846b6e3",
+        "email": "Jaden.Blick61@gmail.com",
+        "firstName": "Caleigh",
+        "lastName": "Kihn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/49.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0298ea7c-9708-471c-8e41-e1ad1a71b635",
+        "email": "Keanu_Nader@gmail.com",
+        "firstName": "Jazmyn",
+        "lastName": "Stamm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39604130",
+        "tenantId": null
+      },
+      {
+        "reference": "f2d6df99-5129-4d4e-b269-48d65261bd72",
+        "email": "Rozella.Gusikowski53@hotmail.com",
+        "firstName": "Esmeralda",
+        "lastName": "Fisher",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52968924",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "video": [
+      {
+        "id": "a637db17-c350-4709-8087-c5f61d6e23d2",
+        "youtube_link": "https://www.youtube.com/watch?v=abc123",
+        "transcript": "This is the transcript for video 1",
+        "created_at": "2023-08-21T11:57:26.671Z",
+        "updated_at": "2023-08-21T01:33:55.798Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6eea04a1-0361-4b89-9a4c-5d2b35757395",
+        "youtube_link": "https://www.youtube.com/watch?v=def456",
+        "transcript": "This is the transcript for video 2",
+        "created_at": "2023-08-21T04:02:06.767Z",
+        "updated_at": "2023-08-21T07:27:50.806Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29ed1dfa-20bc-4a71-b380-16915bea563e",
+        "youtube_link": "https://www.youtube.com/watch?v=ghi789",
+        "transcript": "This is the transcript for video 3",
+        "created_at": "2023-08-20T23:58:47.275Z",
+        "updated_at": "2023-08-20T18:21:29.162Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "685ffe8e-5dc8-4727-9060-88abfcc5333b",
+        "youtube_link": "https://www.youtube.com/watch?v=jkl012",
+        "transcript": "This is the transcript for video 4",
+        "created_at": "2023-08-21T01:26:07.941Z",
+        "updated_at": "2023-08-20T18:11:13.544Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd650e3a-3de3-4957-80cf-f2ec42d1e498",
+        "youtube_link": "https://www.youtube.com/watch?v=mno345",
+        "transcript": "This is the transcript for video 5",
+        "created_at": "2023-08-21T01:31:48.642Z",
+        "updated_at": "2023-08-21T13:54:41.193Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "summary": [
+      {
+        "id": "99efe940-3075-4f89-a652-965659776601",
+        "content": "This is the summary content 1",
+        "created_at": "2023-08-21T02:53:11.065Z",
+        "updated_at": "2023-08-21T06:38:13.879Z",
+        "video_id": "fd650e3a-3de3-4957-80cf-f2ec42d1e498"
+      },
+      {
+        "id": "6630138f-8f7e-40ed-89a4-aad9658aa093",
+        "content": "This is the summary content 2",
+        "created_at": "2023-08-20T17:34:06.299Z",
+        "updated_at": "2023-08-20T22:44:35.736Z",
+        "video_id": "a637db17-c350-4709-8087-c5f61d6e23d2"
+      },
+      {
+        "id": "138dab3d-ddc6-4867-8c59-08e2bcea9709",
+        "content": "This is the summary content 3",
+        "created_at": "2023-08-21T04:17:42.952Z",
+        "updated_at": "2023-08-21T10:53:26.181Z",
+        "video_id": "685ffe8e-5dc8-4727-9060-88abfcc5333b"
+      },
+      {
+        "id": "8548fa20-56c8-4e5d-b9c9-3b5676384b33",
+        "content": "This is the summary content 4",
+        "created_at": "2023-08-21T08:45:41.686Z",
+        "updated_at": "2023-08-21T12:19:31.628Z",
+        "video_id": "6eea04a1-0361-4b89-9a4c-5d2b35757395"
+      },
+      {
+        "id": "29f2fdcf-f412-4fc0-90a1-050ebac1975b",
+        "content": "This is the summary content 5",
+        "created_at": "2023-08-20T23:00:36.649Z",
+        "updated_at": "2023-08-21T06:04:33.784Z",
+        "video_id": "a637db17-c350-4709-8087-c5f61d6e23d2"
+      }
+    ],
+    "pdf": [
+      {
+        "id": "dcebdddf-4140-4c09-85ea-3e7029a632de",
+        "file_path": "path/to/file1.pdf",
+        "created_at": "2023-08-21T00:38:07.002Z",
+        "updated_at": "2023-08-21T14:44:50.616Z",
+        "summary_id": "8548fa20-56c8-4e5d-b9c9-3b5676384b33"
+      },
+      {
+        "id": "055d4767-20b9-4f8b-8dd5-e79b8bfb90c7",
+        "file_path": "path/to/file2.pdf",
+        "created_at": "2023-08-21T00:55:08.212Z",
+        "updated_at": "2023-08-21T07:48:44.755Z",
+        "summary_id": "138dab3d-ddc6-4867-8c59-08e2bcea9709"
+      },
+      {
+        "id": "7175534b-423c-445d-8a6f-c805ffa8294c",
+        "file_path": "path/to/file3.pdf",
+        "created_at": "2023-08-20T18:19:21.662Z",
+        "updated_at": "2023-08-21T05:48:35.670Z",
+        "summary_id": "99efe940-3075-4f89-a652-965659776601"
+      },
+      {
+        "id": "868906ae-6b19-4d54-b2b6-c8d8667b888e",
+        "file_path": "path/to/file4.pdf",
+        "created_at": "2023-08-20T16:22:41.384Z",
+        "updated_at": "2023-08-21T05:12:44.719Z",
+        "summary_id": "8548fa20-56c8-4e5d-b9c9-3b5676384b33"
+      },
+      {
+        "id": "ff27bb3f-3d53-40d8-a686-af916f582a37",
+        "file_path": "path/to/file5.pdf",
+        "created_at": "2023-08-20T20:07:44.233Z",
+        "updated_at": "2023-08-20T21:38:03.803Z",
+        "summary_id": "29f2fdcf-f412-4fc0-90a1-050ebac1975b"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "fb0906ce-c1d5-4e08-b68e-b153313dc2ed",
+        "email": "invitee1@example.com",
+        "status": "pending",
+        "created_at": "2023-08-21T12:29:55.351Z",
+        "updated_at": "2023-08-20T23:03:33.574Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ed7a52cd-2a0f-49ae-af23-16bab46b9054",
+        "email": "invitee2@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-20T23:35:00.081Z",
+        "updated_at": "2023-08-20T23:37:15.544Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f38864a4-3ae4-418d-ba63-0ec41908148a",
+        "email": "invitee3@example.com",
+        "status": "declined",
+        "created_at": "2023-08-20T16:23:56.219Z",
+        "updated_at": "2023-08-21T07:49:04.960Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "15cef4b2-2c56-429e-95c7-739509929093",
+        "email": "invitee4@example.com",
+        "status": "pending",
+        "created_at": "2023-08-21T02:29:37.263Z",
+        "updated_at": "2023-08-20T22:49:38.668Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7c12725b-3c7d-4ef3-bd89-8deff9cacc29",
+        "email": "invitee5@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-21T09:53:14.542Z",
+        "updated_at": "2023-08-20T22:59:43.353Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "260984f4-87b5-4f73-9dc3-518fef568edd",
+        "email": "Sigmund_Buckridge-Dooley@yahoo.com",
+        "firstName": "Gisselle",
+        "lastName": "Schultz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81353398",
+        "tenantId": null
+      },
+      {
+        "reference": "26e0ab99-9f59-4c77-a5bf-c3b81e7f3929",
+        "email": "Aurore_Runolfsdottir@yahoo.com",
+        "firstName": "Tavares",
+        "lastName": "Reilly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/247.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f13c6412-1ea3-4774-8757-05e63483443e",
+        "email": "Oran_Pollich85@yahoo.com",
+        "firstName": "Jessika",
+        "lastName": "Stiedemann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/560.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5534e7af-4f42-43f6-b17e-126d2daa1d4d",
+        "email": "Ansley16@hotmail.com",
+        "firstName": "Ashleigh",
+        "lastName": "Gleichner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/49.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a673be89-a966-41b0-8e49-74a7ef9157ec",
+        "email": "Herminio.Kemmer@hotmail.com",
+        "firstName": "Kaelyn",
+        "lastName": "Auer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5742928",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "video": [
+      {
+        "id": "42f02adb-9eda-499f-afe9-9ca5e21870b8",
+        "youtube_link": "https://www.youtube.com/watch?v=abcdef",
+        "transcript": "This is the transcript for video 1",
+        "created_at": "2023-08-20T21:11:14.457Z",
+        "updated_at": "2023-08-21T00:05:56.373Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb0883ee-dc72-4d46-b742-b95d4efeb4c1",
+        "youtube_link": "https://www.youtube.com/watch?v=ghijkl",
+        "transcript": "This is the transcript for video 2",
+        "created_at": "2023-08-21T09:11:25.234Z",
+        "updated_at": "2023-08-21T02:29:16.666Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8997dec8-2df9-40bc-98f3-0abb2d2a162c",
+        "youtube_link": "https://www.youtube.com/watch?v=mnopqr",
+        "transcript": "This is the transcript for video 3",
+        "created_at": "2023-08-21T11:55:26.255Z",
+        "updated_at": "2023-08-20T17:17:15.655Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "079bbd19-c3b8-43c8-b932-5cd982dff7c4",
+        "youtube_link": "https://www.youtube.com/watch?v=stuvwx",
+        "transcript": "This is the transcript for video 4",
+        "created_at": "2023-08-21T14:11:26.034Z",
+        "updated_at": "2023-08-20T23:53:51.189Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9f48108-af26-4ef1-bed7-5b29b2531b4b",
+        "youtube_link": "https://www.youtube.com/watch?v=yzabcd",
+        "transcript": "This is the transcript for video 5",
+        "created_at": "2023-08-20T22:57:55.225Z",
+        "updated_at": "2023-08-21T03:38:06.230Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "summary": [
+      {
+        "id": "3872f8c9-f94f-4d19-8e38-cdf89e62ee9e",
+        "content": "Summary content 1",
+        "created_at": "2023-08-20T23:27:19.431Z",
+        "updated_at": "2023-08-20T18:02:24.028Z",
+        "video_id": "8997dec8-2df9-40bc-98f3-0abb2d2a162c"
+      },
+      {
+        "id": "f58dc1ff-8a0b-4da8-8936-8fd1829875df",
+        "content": "Summary content 2",
+        "created_at": "2023-08-21T10:21:47.604Z",
+        "updated_at": "2023-08-21T13:19:17.362Z",
+        "video_id": "42f02adb-9eda-499f-afe9-9ca5e21870b8"
+      },
+      {
+        "id": "5f263d39-bbfe-44f7-b50d-e2c69e50e464",
+        "content": "Summary content 3",
+        "created_at": "2023-08-21T08:49:26.774Z",
+        "updated_at": "2023-08-21T07:10:35.081Z",
+        "video_id": "a9f48108-af26-4ef1-bed7-5b29b2531b4b"
+      },
+      {
+        "id": "83711df6-0002-4640-b01f-80a0f3073227",
+        "content": "Summary content 4",
+        "created_at": "2023-08-21T15:26:04.227Z",
+        "updated_at": "2023-08-21T01:25:08.414Z",
+        "video_id": "fb0883ee-dc72-4d46-b742-b95d4efeb4c1"
+      },
+      {
+        "id": "fac08cca-3fc3-47d1-b190-3892ccef7652",
+        "content": "Summary content 5",
+        "created_at": "2023-08-20T21:36:58.244Z",
+        "updated_at": "2023-08-21T10:05:44.198Z",
+        "video_id": "a9f48108-af26-4ef1-bed7-5b29b2531b4b"
+      }
+    ],
+    "pdf": [
+      {
+        "id": "f671db2a-3a8f-4040-bd34-ebcbd9850272",
+        "file_path": "path/to/pdf1.pdf",
+        "created_at": "2023-08-20T23:48:23.606Z",
+        "updated_at": "2023-08-21T04:29:49.503Z",
+        "summary_id": "83711df6-0002-4640-b01f-80a0f3073227"
+      },
+      {
+        "id": "45db110b-9ed3-402b-94ef-5d3295acb0b2",
+        "file_path": "path/to/pdf2.pdf",
+        "created_at": "2023-08-20T22:01:48.636Z",
+        "updated_at": "2023-08-21T12:29:08.105Z",
+        "summary_id": "3872f8c9-f94f-4d19-8e38-cdf89e62ee9e"
+      },
+      {
+        "id": "be8bd540-57b3-4c48-9eb8-c4833aab0bed",
+        "file_path": "path/to/pdf3.pdf",
+        "created_at": "2023-08-20T17:58:33.934Z",
+        "updated_at": "2023-08-21T00:56:49.684Z",
+        "summary_id": "5f263d39-bbfe-44f7-b50d-e2c69e50e464"
+      },
+      {
+        "id": "534d9eda-5818-4d7e-9e9e-3d770936dace",
+        "file_path": "path/to/pdf4.pdf",
+        "created_at": "2023-08-21T08:32:37.694Z",
+        "updated_at": "2023-08-20T17:55:10.617Z",
+        "summary_id": "83711df6-0002-4640-b01f-80a0f3073227"
+      },
+      {
+        "id": "5ddc4165-69da-4f3c-9d20-59a1379f0559",
+        "file_path": "path/to/pdf5.pdf",
+        "created_at": "2023-08-21T04:38:20.647Z",
+        "updated_at": "2023-08-21T15:14:29.610Z",
+        "summary_id": "5f263d39-bbfe-44f7-b50d-e2c69e50e464"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "7061d57c-e2aa-48f3-846a-63bc2b4f49f7",
+        "email": "invitee1@example.com",
+        "status": "pending",
+        "created_at": "2023-08-21T07:31:13.487Z",
+        "updated_at": "2023-08-21T04:01:20.606Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fd5169e7-6ec9-439f-bc8b-eed7aca58f93",
+        "email": "invitee2@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-21T01:58:57.737Z",
+        "updated_at": "2023-08-21T10:04:15.342Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f7a42075-f627-4205-adec-c4bfe0b02073",
+        "email": "invitee3@example.com",
+        "status": "declined",
+        "created_at": "2023-08-21T08:54:21.781Z",
+        "updated_at": "2023-08-20T20:57:35.153Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "03161a06-bbff-4ff2-badf-3924285a905f",
+        "email": "invitee4@example.com",
+        "status": "pending",
+        "created_at": "2023-08-21T05:06:44.868Z",
+        "updated_at": "2023-08-21T11:32:49.683Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2b65800a-d5b5-4c6b-9d98-90222812ba77",
+        "email": "invitee5@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-21T01:12:05.196Z",
+        "updated_at": "2023-08-20T19:32:15.995Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7f2040da-d401-4859-9939-b699e68663a5",
+        "email": "Shad_Stroman35@yahoo.com",
+        "firstName": "Christelle",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/330.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "be6ae1e5-3865-43e9-a96a-2f398d13f04f",
+        "email": "Easton_Wyman-MacGyver84@yahoo.com",
+        "firstName": "Daphney",
+        "lastName": "Hahn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95822369",
+        "tenantId": null
+      },
+      {
+        "reference": "a2617088-2a0f-49d8-a271-1be7960e1f01",
+        "email": "Josue_Langosh@gmail.com",
+        "firstName": "Stacey",
+        "lastName": "Williamson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74251505",
+        "tenantId": null
+      },
+      {
+        "reference": "95c6370f-4149-4e79-b947-d90781036160",
+        "email": "Dimitri_Bahringer1@gmail.com",
+        "firstName": "Sonya",
+        "lastName": "Schneider",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/470.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3362ffbc-3af8-48b5-8d51-43fbfaabcf43",
+        "email": "Evelyn_Metz77@yahoo.com",
+        "firstName": "Henry",
+        "lastName": "Hirthe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64823412",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "video": [
+      {
+        "id": "7af677fb-e193-434f-80f7-3ca60af7aadb",
+        "youtube_link": "https://www.youtube.com/watch?v=abcdefg",
+        "transcript": "This is the transcript for video 1",
+        "created_at": "2023-08-21T11:28:08.160Z",
+        "updated_at": "2023-08-21T13:54:52.767Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c68febb4-a3b7-4b21-a6f9-5ee4d0c12661",
+        "youtube_link": "https://www.youtube.com/watch?v=hijklmn",
+        "transcript": "This is the transcript for video 2",
+        "created_at": "2023-08-21T13:42:30.715Z",
+        "updated_at": "2023-08-21T05:51:36.011Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f43b3298-386c-425e-bb1b-11386e6dddcf",
+        "youtube_link": "https://www.youtube.com/watch?v=opqrstu",
+        "transcript": "This is the transcript for video 3",
+        "created_at": "2023-08-21T01:43:02.900Z",
+        "updated_at": "2023-08-21T05:21:42.701Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7edc2617-4bb8-4c8f-b007-55e3fe1e1093",
+        "youtube_link": "https://www.youtube.com/watch?v=vwxyz",
+        "transcript": "This is the transcript for video 4",
+        "created_at": "2023-08-21T05:28:47.700Z",
+        "updated_at": "2023-08-21T15:31:56.373Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c6e7683-d05a-4443-af7a-187d856e27d1",
+        "youtube_link": "https://www.youtube.com/watch?v=1234567",
+        "transcript": "This is the transcript for video 5",
+        "created_at": "2023-08-21T15:29:23.898Z",
+        "updated_at": "2023-08-21T01:25:31.810Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "summary": [
+      {
+        "id": "d1ae4c64-bcfd-4b5e-baf9-cfbf0740c267",
+        "content": "This is the summary content 1",
+        "created_at": "2023-08-20T17:24:53.988Z",
+        "updated_at": "2023-08-21T08:06:31.247Z",
+        "video_id": "7af677fb-e193-434f-80f7-3ca60af7aadb"
+      },
+      {
+        "id": "a3d6e85f-9da8-4e5e-9a1f-54bfec313841",
+        "content": "This is the summary content 2",
+        "created_at": "2023-08-21T07:26:19.404Z",
+        "updated_at": "2023-08-21T12:10:04.723Z",
+        "video_id": "7af677fb-e193-434f-80f7-3ca60af7aadb"
+      },
+      {
+        "id": "78608833-13ef-4925-9876-0656c645381c",
+        "content": "This is the summary content 3",
+        "created_at": "2023-08-21T12:30:26.710Z",
+        "updated_at": "2023-08-21T14:37:03.375Z",
+        "video_id": "c68febb4-a3b7-4b21-a6f9-5ee4d0c12661"
+      },
+      {
+        "id": "44dfa01c-d593-4e4d-bf3f-7ece79d7d9bf",
+        "content": "This is the summary content 4",
+        "created_at": "2023-08-21T11:29:48.633Z",
+        "updated_at": "2023-08-21T03:20:07.086Z",
+        "video_id": "8c6e7683-d05a-4443-af7a-187d856e27d1"
+      },
+      {
+        "id": "e4801a2b-4ee0-4c73-addf-01e127440c96",
+        "content": "This is the summary content 5",
+        "created_at": "2023-08-21T03:15:37.260Z",
+        "updated_at": "2023-08-21T12:34:39.830Z",
+        "video_id": "8c6e7683-d05a-4443-af7a-187d856e27d1"
+      }
+    ],
+    "pdf": [
+      {
+        "id": "a4887a6e-3508-47db-877f-29ec728d062f",
+        "file_path": "path/to/file1.pdf",
+        "created_at": "2023-08-20T23:45:38.399Z",
+        "updated_at": "2023-08-20T20:38:54.309Z",
+        "summary_id": "78608833-13ef-4925-9876-0656c645381c"
+      },
+      {
+        "id": "ad84de60-e30f-4280-83e3-09e623c9fd5c",
+        "file_path": "path/to/file2.pdf",
+        "created_at": "2023-08-21T13:07:37.907Z",
+        "updated_at": "2023-08-21T02:00:30.394Z",
+        "summary_id": "a3d6e85f-9da8-4e5e-9a1f-54bfec313841"
+      },
+      {
+        "id": "278e788e-bc5f-4ba7-9a2c-e1bb48f78082",
+        "file_path": "path/to/file3.pdf",
+        "created_at": "2023-08-21T04:53:29.181Z",
+        "updated_at": "2023-08-21T15:28:59.837Z",
+        "summary_id": "d1ae4c64-bcfd-4b5e-baf9-cfbf0740c267"
+      },
+      {
+        "id": "f0bcd805-c240-437e-ba54-0e1b977024bd",
+        "file_path": "path/to/file4.pdf",
+        "created_at": "2023-08-21T11:03:20.751Z",
+        "updated_at": "2023-08-20T16:17:25.686Z",
+        "summary_id": "e4801a2b-4ee0-4c73-addf-01e127440c96"
+      },
+      {
+        "id": "b8618df3-6d33-4767-8ec8-5d86e7ca6d14",
+        "file_path": "path/to/file5.pdf",
+        "created_at": "2023-08-20T21:03:07.019Z",
+        "updated_at": "2023-08-21T08:02:48.601Z",
+        "summary_id": "44dfa01c-d593-4e4d-bf3f-7ece79d7d9bf"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "5e92a97c-adf4-4a51-bf4d-e5758ee65821",
+        "email": "invitee1@example.com",
+        "status": "pending",
+        "created_at": "2023-08-21T13:55:55.275Z",
+        "updated_at": "2023-08-20T20:07:06.488Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8a9c42f3-6a62-4d84-b85c-f3faac9dd8b6",
+        "email": "invitee2@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-21T11:48:58.463Z",
+        "updated_at": "2023-08-21T02:46:51.331Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9e16a836-4279-42cb-b9a7-d45cbc0ca1dc",
+        "email": "invitee3@example.com",
+        "status": "declined",
+        "created_at": "2023-08-21T02:44:17.685Z",
+        "updated_at": "2023-08-21T15:22:07.173Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a9d4311f-2e0f-4b0a-8451-2b0b86b05add",
+        "email": "invitee4@example.com",
+        "status": "pending",
+        "created_at": "2023-08-21T02:55:26.464Z",
+        "updated_at": "2023-08-21T00:38:06.340Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "12f6967a-b424-4650-bb66-f6385a1967e9",
+        "email": "invitee5@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-20T19:40:26.620Z",
+        "updated_at": "2023-08-21T12:14:46.488Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "956f1b96-38c1-4812-8f9c-392111cc0d09",
+        "email": "Jayson_Aufderhar@hotmail.com",
+        "firstName": "Minnie",
+        "lastName": "Hackett",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/853.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9d12b7be-800f-40e2-b3c7-0f71fb855e34",
+        "email": "Hayden2@hotmail.com",
+        "firstName": "Santa",
+        "lastName": "Gutmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37103759",
+        "tenantId": null
+      },
+      {
+        "reference": "6161a018-2fbb-410e-9cda-46868b7dbefc",
+        "email": "Walton.Nader@gmail.com",
+        "firstName": "Althea",
+        "lastName": "Hartmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34214135",
+        "tenantId": null
+      },
+      {
+        "reference": "f11c55e4-5d49-4322-85d8-f224a6ea2733",
+        "email": "Linnea16@hotmail.com",
+        "firstName": "Ezra",
+        "lastName": "Hartmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/731.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0f85e476-de3f-4bcc-808b-c5ead3bc38ba",
+        "email": "Brice_Zemlak5@yahoo.com",
+        "firstName": "Jimmie",
+        "lastName": "Littel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1096.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "video": [
+      {
+        "id": "d8ee896c-9080-4b17-a1b3-c2da4a694b6a",
+        "youtube_link": "https://www.youtube.com/watch?v=abcd1234",
+        "transcript": "This is the transcript for video 1.",
+        "created_at": "2023-08-20T23:36:36.567Z",
+        "updated_at": "2023-08-21T09:32:13.122Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af472cc2-43cf-4465-bc75-a1343c0d6ad8",
+        "youtube_link": "https://www.youtube.com/watch?v=efgh5678",
+        "transcript": "This is the transcript for video 2.",
+        "created_at": "2023-08-20T22:19:05.083Z",
+        "updated_at": "2023-08-21T16:00:41.726Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0415558-5a5d-4b87-9487-3bd9a06d9a68",
+        "youtube_link": "https://www.youtube.com/watch?v=ijkl9012",
+        "transcript": "This is the transcript for video 3.",
+        "created_at": "2023-08-21T00:20:35.138Z",
+        "updated_at": "2023-08-21T00:29:46.336Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a32f06b-4cef-4071-b14d-8fd23e8a2e4e",
+        "youtube_link": "https://www.youtube.com/watch?v=mnop3456",
+        "transcript": "This is the transcript for video 4.",
+        "created_at": "2023-08-21T07:26:42.764Z",
+        "updated_at": "2023-08-21T06:04:13.955Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f43e2de6-cc4d-40dc-ad85-dcbcc19c6f4a",
+        "youtube_link": "https://www.youtube.com/watch?v=qrs7890",
+        "transcript": "This is the transcript for video 5.",
+        "created_at": "2023-08-21T01:14:45.351Z",
+        "updated_at": "2023-08-20T16:21:36.530Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "summary": [
+      {
+        "id": "257976db-4840-445f-8a08-14241dd7c1b4",
+        "content": "This is the summary content for summary 1.",
+        "created_at": "2023-08-21T01:13:13.296Z",
+        "updated_at": "2023-08-21T09:35:56.968Z",
+        "video_id": "c0415558-5a5d-4b87-9487-3bd9a06d9a68"
+      },
+      {
+        "id": "c11d65a6-59b4-4bf4-829b-e085925731d0",
+        "content": "This is the summary content for summary 2.",
+        "created_at": "2023-08-20T18:54:04.917Z",
+        "updated_at": "2023-08-20T17:35:14.221Z",
+        "video_id": "c0415558-5a5d-4b87-9487-3bd9a06d9a68"
+      },
+      {
+        "id": "595a87f1-55dc-44aa-b51d-8d2a7586eb42",
+        "content": "This is the summary content for summary 3.",
+        "created_at": "2023-08-20T18:03:29.657Z",
+        "updated_at": "2023-08-20T21:36:52.468Z",
+        "video_id": "f43e2de6-cc4d-40dc-ad85-dcbcc19c6f4a"
+      },
+      {
+        "id": "5975d1d9-6416-4d7a-ad5c-f52546f85e6a",
+        "content": "This is the summary content for summary 4.",
+        "created_at": "2023-08-21T05:06:25.630Z",
+        "updated_at": "2023-08-21T06:31:28.429Z",
+        "video_id": "d8ee896c-9080-4b17-a1b3-c2da4a694b6a"
+      },
+      {
+        "id": "1c0b2aef-61a8-44c5-805d-db9270c0275c",
+        "content": "This is the summary content for summary 5.",
+        "created_at": "2023-08-20T19:18:12.525Z",
+        "updated_at": "2023-08-21T12:42:48.478Z",
+        "video_id": "d8ee896c-9080-4b17-a1b3-c2da4a694b6a"
+      }
+    ],
+    "pdf": [
+      {
+        "id": "a2c12788-7684-4ba0-806e-b8a5edd5bcd7",
+        "file_path": "path/to/pdf1.pdf",
+        "created_at": "2023-08-20T20:39:21.221Z",
+        "updated_at": "2023-08-21T00:03:08.784Z",
+        "summary_id": "5975d1d9-6416-4d7a-ad5c-f52546f85e6a"
+      },
+      {
+        "id": "05b3b4ed-6025-455d-921a-922783a24a3b",
+        "file_path": "path/to/pdf2.pdf",
+        "created_at": "2023-08-21T13:52:22.754Z",
+        "updated_at": "2023-08-21T07:54:12.573Z",
+        "summary_id": "595a87f1-55dc-44aa-b51d-8d2a7586eb42"
+      },
+      {
+        "id": "314f5baf-5624-4778-9b9a-832bfa40feeb",
+        "file_path": "path/to/pdf3.pdf",
+        "created_at": "2023-08-21T10:46:10.674Z",
+        "updated_at": "2023-08-21T09:12:17.174Z",
+        "summary_id": "5975d1d9-6416-4d7a-ad5c-f52546f85e6a"
+      },
+      {
+        "id": "d2bc6a97-b76a-4ffb-8a75-4919217b73e9",
+        "file_path": "path/to/pdf4.pdf",
+        "created_at": "2023-08-20T18:55:48.362Z",
+        "updated_at": "2023-08-21T11:36:49.427Z",
+        "summary_id": "c11d65a6-59b4-4bf4-829b-e085925731d0"
+      },
+      {
+        "id": "8d2b42f1-9926-41f8-b369-85035ef0133a",
+        "file_path": "path/to/pdf5.pdf",
+        "created_at": "2023-08-21T05:11:22.515Z",
+        "updated_at": "2023-08-21T03:16:22.742Z",
+        "summary_id": "257976db-4840-445f-8a08-14241dd7c1b4"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "9778977d-64fa-47c1-8755-446ad69d6d79",
+        "email": "invitee1@example.com",
+        "status": "pending",
+        "created_at": "2023-08-21T06:17:58.329Z",
+        "updated_at": "2023-08-21T01:05:10.062Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "989637e5-9863-42de-ae0c-9c6f1b2a6c69",
+        "email": "invitee2@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-21T09:55:08.005Z",
+        "updated_at": "2023-08-21T09:37:59.667Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "abf7322c-0b14-46c3-9357-a738e927db8e",
+        "email": "invitee3@example.com",
+        "status": "declined",
+        "created_at": "2023-08-20T17:51:31.606Z",
+        "updated_at": "2023-08-21T00:49:52.190Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1b9a1750-b866-4e75-aa16-b9b5b5de185f",
+        "email": "invitee4@example.com",
+        "status": "pending",
+        "created_at": "2023-08-20T18:44:32.988Z",
+        "updated_at": "2023-08-21T10:58:02.597Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fa715f6e-43d0-4390-8724-d4804bd78edf",
+        "email": "invitee5@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-21T00:41:20.724Z",
+        "updated_at": "2023-08-20T17:05:54.044Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "546fb258-a3c4-40c4-80ed-3699076e9b73",
+        "email": "Madeline61@yahoo.com",
+        "firstName": "Cletus",
+        "lastName": "Roob-Kuhn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/496.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7207cb78-6a2e-449c-bc65-51bef4513cac",
+        "email": "Fausto.Hilpert@yahoo.com",
+        "firstName": "Elmo",
+        "lastName": "O'Conner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/856.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4ee3bcf7-c189-46c7-89fe-84c5d72ff7ab",
+        "email": "Stephanie.Labadie@gmail.com",
+        "firstName": "Garrick",
+        "lastName": "Hoppe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/522.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "15fa8c81-f102-451f-a2be-6d0e6c794f7f",
+        "email": "Bethel81@yahoo.com",
+        "firstName": "Elisa",
+        "lastName": "Schmeler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1128.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5a789d60-daa5-4a60-9ba2-4c0e5a0d2285",
+        "email": "Mattie.Weissnat@hotmail.com",
+        "firstName": "Hollie",
+        "lastName": "Greenholt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1043.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "video": [
+      {
+        "id": "06caf058-17c6-4cba-8bce-44f20cabf43d",
+        "youtube_link": "https://www.youtube.com/watch?v=abcdefg123456",
+        "transcript": "This is the transcript for video 1.",
+        "created_at": "2023-08-20T22:45:58.730Z",
+        "updated_at": "2023-08-20T16:36:08.910Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0364c05a-fc86-4d42-b23b-7144ad51ad4e",
+        "youtube_link": "https://www.youtube.com/watch?v=hijklmn789012",
+        "transcript": "This is the transcript for video 2.",
+        "created_at": "2023-08-21T14:51:20.829Z",
+        "updated_at": "2023-08-20T21:15:44.191Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7fd48e92-cabe-4b08-9c14-bed89366c653",
+        "youtube_link": "https://www.youtube.com/watch?v=opqrstu345678",
+        "transcript": "This is the transcript for video 3.",
+        "created_at": "2023-08-20T23:19:02.720Z",
+        "updated_at": "2023-08-20T22:06:20.360Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14d649eb-2372-44cc-8d89-67fcdb307cb1",
+        "youtube_link": "https://www.youtube.com/watch?v=vwxyzab456789",
+        "transcript": "This is the transcript for video 4.",
+        "created_at": "2023-08-21T15:04:25.347Z",
+        "updated_at": "2023-08-21T11:24:22.143Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8194d619-21f2-479d-8014-6e2b2b090224",
+        "youtube_link": "https://www.youtube.com/watch?v=cdefghi012345",
+        "transcript": "This is the transcript for video 5.",
+        "created_at": "2023-08-20T21:44:41.151Z",
+        "updated_at": "2023-08-20T23:40:10.910Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "summary": [
+      {
+        "id": "66627494-a354-48b0-b239-e1995e6dbf54",
+        "content": "This is the summary content 1.",
+        "created_at": "2023-08-20T17:52:28.999Z",
+        "updated_at": "2023-08-20T18:18:03.978Z",
+        "video_id": "8194d619-21f2-479d-8014-6e2b2b090224"
+      },
+      {
+        "id": "e26da3c1-79c8-4ab9-bc48-d82a1c484d8f",
+        "content": "This is the summary content 2.",
+        "created_at": "2023-08-21T07:03:28.191Z",
+        "updated_at": "2023-08-20T17:30:11.279Z",
+        "video_id": "14d649eb-2372-44cc-8d89-67fcdb307cb1"
+      },
+      {
+        "id": "12e5ed2d-f604-47ae-b4df-d06587b80aa0",
+        "content": "This is the summary content 3.",
+        "created_at": "2023-08-21T05:45:21.749Z",
+        "updated_at": "2023-08-20T23:19:34.956Z",
+        "video_id": "0364c05a-fc86-4d42-b23b-7144ad51ad4e"
+      },
+      {
+        "id": "3aab5688-10b4-464a-b971-d1ff35a5867c",
+        "content": "This is the summary content 4.",
+        "created_at": "2023-08-21T14:19:39.297Z",
+        "updated_at": "2023-08-21T01:36:03.334Z",
+        "video_id": "7fd48e92-cabe-4b08-9c14-bed89366c653"
+      },
+      {
+        "id": "ac660d5a-9105-40ae-9567-db7d9c4c3fbe",
+        "content": "This is the summary content 5.",
+        "created_at": "2023-08-21T13:38:47.038Z",
+        "updated_at": "2023-08-21T05:17:28.486Z",
+        "video_id": "8194d619-21f2-479d-8014-6e2b2b090224"
+      }
+    ],
+    "pdf": [
+      {
+        "id": "a8f290db-85f0-4f8c-9079-cd1814ba0472",
+        "file_path": "path/to/pdf1.pdf",
+        "created_at": "2023-08-21T01:08:06.076Z",
+        "updated_at": "2023-08-21T02:28:30.775Z",
+        "summary_id": "66627494-a354-48b0-b239-e1995e6dbf54"
+      },
+      {
+        "id": "4ecf67b8-74fa-4dce-a370-ba9b002da64e",
+        "file_path": "path/to/pdf2.pdf",
+        "created_at": "2023-08-20T23:17:54.751Z",
+        "updated_at": "2023-08-21T13:38:51.454Z",
+        "summary_id": "3aab5688-10b4-464a-b971-d1ff35a5867c"
+      },
+      {
+        "id": "e7986165-6e20-4232-a1d0-e409dbe52170",
+        "file_path": "path/to/pdf3.pdf",
+        "created_at": "2023-08-20T18:53:01.003Z",
+        "updated_at": "2023-08-21T11:11:05.399Z",
+        "summary_id": "3aab5688-10b4-464a-b971-d1ff35a5867c"
+      },
+      {
+        "id": "61c42d16-b653-4472-a910-d771789ee419",
+        "file_path": "path/to/pdf4.pdf",
+        "created_at": "2023-08-21T02:48:12.802Z",
+        "updated_at": "2023-08-21T09:13:00.073Z",
+        "summary_id": "3aab5688-10b4-464a-b971-d1ff35a5867c"
+      },
+      {
+        "id": "ec0c8f34-caec-4bf6-96e4-bb8c71fe8ad4",
+        "file_path": "path/to/pdf5.pdf",
+        "created_at": "2023-08-21T07:31:13.888Z",
+        "updated_at": "2023-08-20T20:46:49.281Z",
+        "summary_id": "12e5ed2d-f604-47ae-b4df-d06587b80aa0"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "766ef398-5813-4675-a048-600905fbcf39",
+        "email": "invitee1@example.com",
+        "status": "pending",
+        "created_at": "2023-08-21T10:15:38.911Z",
+        "updated_at": "2023-08-20T19:54:21.463Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "27b58f14-b2f7-45b1-9a3a-a84ab92cc84a",
+        "email": "invitee2@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-21T02:15:41.480Z",
+        "updated_at": "2023-08-21T12:25:47.831Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a84ba791-c59a-41e2-bc9a-9db0b00cc009",
+        "email": "invitee3@example.com",
+        "status": "declined",
+        "created_at": "2023-08-21T04:53:20.286Z",
+        "updated_at": "2023-08-20T19:30:29.313Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d4c1108e-e170-4015-a9c8-450a28904127",
+        "email": "invitee4@example.com",
+        "status": "pending",
+        "created_at": "2023-08-21T11:57:13.271Z",
+        "updated_at": "2023-08-21T14:03:24.980Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d754ffc0-6b05-4954-9794-88b85a7d87cc",
+        "email": "invitee5@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-21T08:04:09.940Z",
+        "updated_at": "2023-08-21T02:29:08.993Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a27f5699-01cc-4bae-9f23-e73c4f28eba9",
+        "email": "Dashawn_OKon@yahoo.com",
+        "firstName": "Polly",
+        "lastName": "Trantow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56246799",
+        "tenantId": null
+      },
+      {
+        "reference": "c17d48a1-5915-4ab4-a455-8d2103440b0a",
+        "email": "Casandra.Wilderman3@hotmail.com",
+        "firstName": "Heath",
+        "lastName": "Abbott",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/889.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b4a4247c-77d8-482b-8e02-05dd1de8d6b5",
+        "email": "Carleton_Larson-OKon40@gmail.com",
+        "firstName": "Evalyn",
+        "lastName": "Wolff",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68512463",
+        "tenantId": null
+      },
+      {
+        "reference": "6fa5b609-f06d-4b2f-a4b5-43918271ffd8",
+        "email": "Giovanna_DuBuque@yahoo.com",
+        "firstName": "Shanel",
+        "lastName": "Considine-Oberbrunner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58016309",
+        "tenantId": null
+      },
+      {
+        "reference": "8ea7ccd3-5f47-4880-b6f7-256eb97ac020",
+        "email": "Jessyca40@hotmail.com",
+        "firstName": "Rocio",
+        "lastName": "Parisian",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/295.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "video": [
+      {
+        "id": "e66b609b-edfb-4b68-92af-ababb4e9426b",
+        "youtube_link": "https://www.youtube.com/watch?v=abc123",
+        "transcript": "This is the transcript for video 1",
+        "created_at": "2023-08-21T01:45:16.432Z",
+        "updated_at": "2023-08-21T02:42:06.270Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b5679be-da54-4c63-ae0b-141d46652d91",
+        "youtube_link": "https://www.youtube.com/watch?v=def456",
+        "transcript": "This is the transcript for video 2",
+        "created_at": "2023-08-21T09:42:28.819Z",
+        "updated_at": "2023-08-20T19:54:37.469Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e60a197-b50b-47a4-9214-6a70db0753f7",
+        "youtube_link": "https://www.youtube.com/watch?v=ghi789",
+        "transcript": "This is the transcript for video 3",
+        "created_at": "2023-08-20T22:16:15.011Z",
+        "updated_at": "2023-08-20T16:32:06.426Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae9d7679-750f-4073-98bf-2fa621f77ab8",
+        "youtube_link": "https://www.youtube.com/watch?v=jkl012",
+        "transcript": "This is the transcript for video 4",
+        "created_at": "2023-08-20T20:30:48.335Z",
+        "updated_at": "2023-08-21T06:34:14.253Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a20416c-ea5a-44c3-a3b7-9bcfe924d5e7",
+        "youtube_link": "https://www.youtube.com/watch?v=mno345",
+        "transcript": "This is the transcript for video 5",
+        "created_at": "2023-08-21T01:14:23.525Z",
+        "updated_at": "2023-08-21T15:40:44.242Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "summary": [
+      {
+        "id": "47028ed3-7634-4750-a5ca-271faf26de0d",
+        "content": "Summary content 1",
+        "created_at": "2023-08-21T13:34:51.758Z",
+        "updated_at": "2023-08-21T11:38:24.124Z",
+        "video_id": "8a20416c-ea5a-44c3-a3b7-9bcfe924d5e7"
+      },
+      {
+        "id": "03a06c3e-166d-49bb-b248-e37c22184626",
+        "content": "Summary content 2",
+        "created_at": "2023-08-20T20:28:54.719Z",
+        "updated_at": "2023-08-21T11:57:19.036Z",
+        "video_id": "e66b609b-edfb-4b68-92af-ababb4e9426b"
+      },
+      {
+        "id": "8230e350-6ab7-4e67-b1c0-9dae55a5623c",
+        "content": "Summary content 3",
+        "created_at": "2023-08-21T13:04:39.388Z",
+        "updated_at": "2023-08-21T01:41:23.558Z",
+        "video_id": "e66b609b-edfb-4b68-92af-ababb4e9426b"
+      },
+      {
+        "id": "bfa9de8e-8828-41fe-8552-28a7845ee8c5",
+        "content": "Summary content 4",
+        "created_at": "2023-08-20T18:58:40.640Z",
+        "updated_at": "2023-08-21T04:28:02.350Z",
+        "video_id": "e66b609b-edfb-4b68-92af-ababb4e9426b"
+      },
+      {
+        "id": "40a6d12b-ed48-4d5a-848e-71ea9babbc54",
+        "content": "Summary content 5",
+        "created_at": "2023-08-20T17:40:47.261Z",
+        "updated_at": "2023-08-20T16:27:18.938Z",
+        "video_id": "8a20416c-ea5a-44c3-a3b7-9bcfe924d5e7"
+      }
+    ],
+    "pdf": [
+      {
+        "id": "e556f8f8-83e5-4b86-b4f6-c6a48a38a9d2",
+        "file_path": "path/to/file1.pdf",
+        "created_at": "2023-08-21T04:00:07.611Z",
+        "updated_at": "2023-08-21T11:38:14.960Z",
+        "summary_id": "8230e350-6ab7-4e67-b1c0-9dae55a5623c"
+      },
+      {
+        "id": "0fd490e6-8d4b-4d63-92f7-6842a4ebcd57",
+        "file_path": "path/to/file2.pdf",
+        "created_at": "2023-08-20T16:23:09.340Z",
+        "updated_at": "2023-08-21T06:14:05.260Z",
+        "summary_id": "40a6d12b-ed48-4d5a-848e-71ea9babbc54"
+      },
+      {
+        "id": "54bd4cc1-afd4-4502-a3bb-8a3a1b2ba0d3",
+        "file_path": "path/to/file3.pdf",
+        "created_at": "2023-08-21T05:16:38.802Z",
+        "updated_at": "2023-08-21T12:11:54.688Z",
+        "summary_id": "40a6d12b-ed48-4d5a-848e-71ea9babbc54"
+      },
+      {
+        "id": "fe4fef11-9e46-430e-ab11-7899a449ce79",
+        "file_path": "path/to/file4.pdf",
+        "created_at": "2023-08-21T09:12:16.237Z",
+        "updated_at": "2023-08-20T16:46:02.551Z",
+        "summary_id": "47028ed3-7634-4750-a5ca-271faf26de0d"
+      },
+      {
+        "id": "090e5303-e3fb-4168-8517-c3d67c5ba99f",
+        "file_path": "path/to/file5.pdf",
+        "created_at": "2023-08-21T01:23:33.977Z",
+        "updated_at": "2023-08-21T08:25:26.718Z",
+        "summary_id": "47028ed3-7634-4750-a5ca-271faf26de0d"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "695eb25d-8b41-4569-b047-fdf407997ebf",
+        "email": "invitee1@example.com",
+        "status": "pending",
+        "created_at": "2023-08-20T21:41:40.803Z",
+        "updated_at": "2023-08-21T05:36:45.391Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4846486e-3b20-497b-a803-9408b41353cf",
+        "email": "invitee2@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-21T14:13:21.248Z",
+        "updated_at": "2023-08-21T07:27:30.073Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6305f29a-bf8e-40db-bc6f-6a342f3d2a52",
+        "email": "invitee3@example.com",
+        "status": "declined",
+        "created_at": "2023-08-21T06:18:15.887Z",
+        "updated_at": "2023-08-21T11:43:47.538Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0c6282db-417d-4560-8e7f-9db4264d035f",
+        "email": "invitee4@example.com",
+        "status": "pending",
+        "created_at": "2023-08-21T07:09:44.670Z",
+        "updated_at": "2023-08-21T03:39:01.269Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "48ade7e0-3ce1-47d8-a586-115cae3616d3",
+        "email": "invitee5@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-21T04:47:16.253Z",
+        "updated_at": "2023-08-21T15:41:40.601Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "14f8fab0-b4be-4b07-aa80-cccbe0b826a7",
+        "email": "Mervin51@gmail.com",
+        "firstName": "Kaelyn",
+        "lastName": "Ratke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56405606",
+        "tenantId": null
+      },
+      {
+        "reference": "600429ab-b6d1-48be-b99f-c8d079a6186f",
+        "email": "Bessie.Hahn20@gmail.com",
+        "firstName": "Rigoberto",
+        "lastName": "Murray",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/270.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "42b2ab39-27ec-45b0-bb86-9ea671fcb3a9",
+        "email": "Frances.Littel@hotmail.com",
+        "firstName": "Ruthe",
+        "lastName": "Dibbert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/905.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2e1fb3e9-5147-454c-af18-9753e7a2f726",
+        "email": "Elizabeth.Schuppe81@gmail.com",
+        "firstName": "Cassie",
+        "lastName": "Bernier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40825539",
+        "tenantId": null
+      },
+      {
+        "reference": "491c5343-5988-4be9-82d3-bfe5e6868753",
+        "email": "Constantin.Olson63@gmail.com",
+        "firstName": "Sterling",
+        "lastName": "Goodwin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/331.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "video": [
+      {
+        "id": "c26f123e-7533-4fae-b234-b8d7613e584c",
+        "youtube_link": "https://www.youtube.com/watch?v=abcd1234",
+        "transcript": "This is the transcript for video 1.",
+        "created_at": "2023-08-20T16:35:57.674Z",
+        "updated_at": "2023-08-21T12:32:11.777Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e5bbe06b-b1ef-4e26-a3de-a3ac5b9d5b0f",
+        "youtube_link": "https://www.youtube.com/watch?v=efgh5678",
+        "transcript": "This is the transcript for video 2.",
+        "created_at": "2023-08-21T00:01:09.981Z",
+        "updated_at": "2023-08-21T00:13:00.203Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "404396a8-9027-4115-b48b-5507c6bd0853",
+        "youtube_link": "https://www.youtube.com/watch?v=ijkl9012",
+        "transcript": "This is the transcript for video 3.",
+        "created_at": "2023-08-21T06:09:05.730Z",
+        "updated_at": "2023-08-20T19:18:09.312Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ebb1656e-6da1-4da1-a7cc-e7caa25e5e52",
+        "youtube_link": "https://www.youtube.com/watch?v=mnop3456",
+        "transcript": "This is the transcript for video 4.",
+        "created_at": "2023-08-21T04:08:13.572Z",
+        "updated_at": "2023-08-20T21:09:23.338Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aea96c1c-765f-44e1-b69a-ce925f811db9",
+        "youtube_link": "https://www.youtube.com/watch?v=qrs7890",
+        "transcript": "This is the transcript for video 5.",
+        "created_at": "2023-08-21T07:43:36.107Z",
+        "updated_at": "2023-08-21T12:14:53.194Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "summary": [
+      {
+        "id": "aaf57b60-ee8b-4ce9-a204-099e2fa494b4",
+        "content": "This is the summary content 1.",
+        "created_at": "2023-08-21T08:21:23.513Z",
+        "updated_at": "2023-08-21T02:56:11.560Z",
+        "video_id": "404396a8-9027-4115-b48b-5507c6bd0853"
+      },
+      {
+        "id": "fe949c99-776e-4322-ad8b-9d65d1f7fa3f",
+        "content": "This is the summary content 2.",
+        "created_at": "2023-08-21T05:02:17.600Z",
+        "updated_at": "2023-08-21T09:13:13.123Z",
+        "video_id": "ebb1656e-6da1-4da1-a7cc-e7caa25e5e52"
+      },
+      {
+        "id": "6a6433b7-8f98-497f-bd7f-35ea136e2d3f",
+        "content": "This is the summary content 3.",
+        "created_at": "2023-08-21T07:33:11.160Z",
+        "updated_at": "2023-08-21T04:15:56.632Z",
+        "video_id": "c26f123e-7533-4fae-b234-b8d7613e584c"
+      },
+      {
+        "id": "46cbb018-a975-4eb0-ab04-f32c6c5feadc",
+        "content": "This is the summary content 4.",
+        "created_at": "2023-08-20T21:41:53.185Z",
+        "updated_at": "2023-08-21T13:29:41.536Z",
+        "video_id": "ebb1656e-6da1-4da1-a7cc-e7caa25e5e52"
+      },
+      {
+        "id": "d489449c-309b-4e4a-9bef-e107ff00a5ac",
+        "content": "This is the summary content 5.",
+        "created_at": "2023-08-20T20:02:53.104Z",
+        "updated_at": "2023-08-21T09:22:49.106Z",
+        "video_id": "c26f123e-7533-4fae-b234-b8d7613e584c"
+      }
+    ],
+    "pdf": [
+      {
+        "id": "d3121439-f75f-4b1f-aa0b-e6bc2ef03312",
+        "file_path": "https://example.com/files/pdf1.pdf",
+        "created_at": "2023-08-20T22:15:42.627Z",
+        "updated_at": "2023-08-21T03:47:15.160Z",
+        "summary_id": "6a6433b7-8f98-497f-bd7f-35ea136e2d3f"
+      },
+      {
+        "id": "c4d19755-0069-4ad5-9f41-4e38f308fd7d",
+        "file_path": "https://example.com/files/pdf2.pdf",
+        "created_at": "2023-08-20T19:43:03.253Z",
+        "updated_at": "2023-08-21T06:51:07.107Z",
+        "summary_id": "aaf57b60-ee8b-4ce9-a204-099e2fa494b4"
+      },
+      {
+        "id": "55b6eaf7-0131-4295-8804-f5dc084694cb",
+        "file_path": "https://example.com/files/pdf3.pdf",
+        "created_at": "2023-08-21T06:09:30.581Z",
+        "updated_at": "2023-08-20T20:31:13.805Z",
+        "summary_id": "6a6433b7-8f98-497f-bd7f-35ea136e2d3f"
+      },
+      {
+        "id": "954e8f5c-73d5-4707-9b12-eea7491d43f5",
+        "file_path": "https://example.com/files/pdf4.pdf",
+        "created_at": "2023-08-21T13:48:35.802Z",
+        "updated_at": "2023-08-21T15:40:28.633Z",
+        "summary_id": "6a6433b7-8f98-497f-bd7f-35ea136e2d3f"
+      },
+      {
+        "id": "f8693339-2462-411f-9342-98f2431ae607",
+        "file_path": "https://example.com/files/pdf5.pdf",
+        "created_at": "2023-08-20T18:32:03.287Z",
+        "updated_at": "2023-08-21T12:34:31.348Z",
+        "summary_id": "d489449c-309b-4e4a-9bef-e107ff00a5ac"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "06f72660-3732-44d6-be41-05e743540d0e",
+        "email": "invitation1@example.com",
+        "status": "pending",
+        "created_at": "2023-08-21T09:57:43.301Z",
+        "updated_at": "2023-08-20T16:10:00.636Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "41f3ffe3-9404-4463-8756-eb8a5db7550f",
+        "email": "invitation2@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-21T04:22:37.371Z",
+        "updated_at": "2023-08-21T04:25:11.423Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fc7165b1-3558-4938-b43b-a3c934187c55",
+        "email": "invitation3@example.com",
+        "status": "declined",
+        "created_at": "2023-08-20T19:42:03.078Z",
+        "updated_at": "2023-08-20T18:47:24.584Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bc83c99e-844d-4108-9adc-ff09c53fbdc7",
+        "email": "invitation4@example.com",
+        "status": "pending",
+        "created_at": "2023-08-21T08:39:38.662Z",
+        "updated_at": "2023-08-21T13:49:33.048Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9ef45f67-a9f2-459e-b507-38700dcefae4",
+        "email": "invitation5@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-21T06:47:31.524Z",
+        "updated_at": "2023-08-21T16:05:38.099Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "438ef1ea-782b-4407-91f5-d5689239487e",
+        "email": "Lina43@yahoo.com",
+        "firstName": "Elliott",
+        "lastName": "Heathcote",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42621273",
+        "tenantId": null
+      },
+      {
+        "reference": "4a480808-e96d-46f2-b3de-3e891b1d5a7e",
+        "email": "Alene_Harris@yahoo.com",
+        "firstName": "Tianna",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/610.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9078237e-7023-4800-af12-d0ec6d983775",
+        "email": "Lenore_Nader@yahoo.com",
+        "firstName": "Silas",
+        "lastName": "Kessler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49679464",
+        "tenantId": null
+      },
+      {
+        "reference": "94ee6dfc-9ded-4169-a8ba-4d574277a1f0",
+        "email": "Hazle.Borer12@yahoo.com",
+        "firstName": "Jacky",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/265.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "22779e5b-edbb-4b2d-bb45-bb10a80624ce",
+        "email": "Noemi_Bartell@yahoo.com",
+        "firstName": "Rasheed",
+        "lastName": "Walter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33630552",
+        "tenantId": null
+      }
+    ]
+  }
+]
